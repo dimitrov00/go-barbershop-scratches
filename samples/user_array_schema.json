@@ -1,0 +1,52 @@
+{
+    "statuses": [
+        "active",
+        "unverified",
+        "blocked",
+        "deleted"
+    ],
+    "pagination": {
+        "total": 1000,
+        "limit": 10,
+        "offset": 0,
+        "next": "/users?page=2&search=monalisa&status=active",
+        "prev": null
+    },
+    "filters": {
+        "status": "active",
+        "search": "monalisa"
+    },
+    "users": [
+        {
+            "user": {
+                "id": 1,
+                "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+                "names": {
+                    "first": "Monalisa",
+                    "last": "Octocat"
+                },
+                "status": "active",
+                "contact": {
+                    "email": "example@mail.com",
+                    "phone": "1234567890"
+                },
+                "audit": {
+                    "createdAt": "2021-01-01T00:00:00.000Z",
+                    "updatedAt": "2021-01-01T00:00:00.000Z"
+                }
+            },
+            "actions": [
+                {
+                    "name": "block_user",
+                    "url": "/users/1/block",
+                    "method": "POST"
+                },
+                {
+                    "name": "delete_user",
+                    "url": "/users/1",
+                    "method": "DELETE"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "id": 1,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+    "names": {
+        "first": "Monalisa",
+        "last": "Octocat"
+    },
+    "status": "active",
+    "roles": [
+        "admin",
+        "user"
+    ],
+    "contact": {
+        "email": "example@mail.com",
+        "phone": "1234567890"
+    },
+    "authentication": {
+        "password": "pass",
+        "sessionToken": "token"
+    },
+    "address": {
+        "street": "123 Main St",
+        "city": "Anytown"
+    },
+    "audit": {
+        "createdAt": "2021-01-01T00:00:00.000Z",
+        "updatedAt": "2021-01-01T00:00:00.000Z"
+    },
+    "actions": [
+        {
+            "name": "change_password",
+            "url": "/profile/password",
+            "method": "PATCH"
+        },
+        {
+            "name": "change_contact_info",
+            "url": "/profile/contact",
+            "method": "PATCH"
+        },
+        {
+            "name": "delete_profile",
+            "url": "/profile/delete",
+            "method": "DELETE"
+        }
+    ]
+}

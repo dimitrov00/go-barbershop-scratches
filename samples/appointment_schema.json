@@ -1,0 +1,94 @@
+{
+    "id": 1,
+    "customer": {
+        "id": 1,
+        "avatarUrl": "https://avatars3.githubusercontent.com/u/583231?v=4",
+        "names": {
+            "first": "Monalisa",
+            "last": "Octocat"
+        },
+        "contact": {
+            "email": "example@mail.com",
+            "phone": "1234567890"
+        }
+    },
+    "status": "pending",
+    "services": [
+        {
+            "id": 1,
+            "name": "Service 1",
+            "price": 100.00,
+            "execuctionTime": 60
+        }
+    ],
+    "schedule": {
+        "start": "2019-01-01T00:00:00Z",
+        "end": "2019-01-01T01:00:00Z"
+    },
+    "totalServices": 1,
+    "totalExecutionTime": 60,
+    "basePrice": 100.00,
+    "totalPrice": 70.00,
+    "totalDiscount": 30.00,
+    "promoCode": {
+        "id": 1,
+        "code": "PROMO",
+        "discount": 10.00,
+        "type": "percentage"
+    },
+    "discount": {
+        "id": 1,
+        "name": "Summer Sale",
+        "description": "20% off all services",
+        "discount": 20.00,
+        "type": "percentage"
+    },
+    "notes": "Some notes",
+    "executor": {
+        "id": 1,
+        "avatarUrl": "https://avatars3.githubusercontent.com/u/583231?v=4",
+        "names": {
+            "first": "Monalisa",
+            "last": "Octocat"
+        },
+        "contact": {
+            "email": "example@mail.com",
+            "phone": "1234567890"
+        }
+    },
+    "location": {
+        "street": "1234 Main St",
+        "city": "Anytown"
+    },
+    "audit": {
+        "createdAt": "2019-01-01T00:00:00Z",
+        "updatedAt": "2019-01-01T00:00:00Z"
+    },
+    "actions": [
+        {
+            "name": "accept",
+            "url": "/appointments/1/accept",
+            "method": "POST"
+        },
+        {
+            "name": "reject",
+            "url": "/appointments/1/reject",
+            "method": "POST"
+        },
+        {
+            "name": "cancel",
+            "url": "/appointments/1/cancel",
+            "method": "POST"
+        },
+        {
+            "name": "complete",
+            "url": "/appointments/1/complete",
+            "method": "POST"
+        },
+        {
+            "name": "shift",
+            "url": "/appointments/1/shift",
+            "method": "POST"
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+# Documentation files (e.g., API documentation)

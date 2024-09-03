@@ -1,0 +1,26 @@
+EMAIL_ALREADY_EXISTS = "Email address already exists"
+EMAIL_VERIFICATION_CODE_SENT = "Email verification code sent to {{.EmailAddress}}"
+ERROR_SENDING_EMAIL = "Error occurred while sending email"
+INTERNAL_SERVER_ERROR = "Something went wrong"
+INVALID_EMAIL = "Invalid email address"
+INVALID_NAME = "Invalid name"
+INVALID_PHONE_NUMBER = "Invalid phone number"
+PASSWORD_NO_LOWER = "Password must contain at least one lowercase letter"
+PASSWORD_NO_NUMBER = "Password must contain at least one number"
+PASSWORD_NO_SPECIAL = "Password must contain at least one special character"
+PASSWORD_NO_UPPER = "Password must contain at least one capital letter"
+PASSWORD_TOO_LONG = "Password must be at most {{.MaxLength}} characters long"
+PASSWORD_TOO_SHORT = "Password must be at least {{.MinLength}} characters long"
+STRING_LETTERS_ONLY = "The {{.FieldName}} must contain only letters"
+USER_ALREADY_EXISTS = "User already exists"
+WELCOME_EMAIL_BODY = "Welcome to Creativo, {{.FirstName}}!"
+WELCOME_EMAIL_SUBJECT = "Welcome to Creativo"
+WRONG_CREDENTIALS = "Invalid email or password"
+
+[STRING_TOO_LONG]
+one = "The {{.FieldName}} must be at most {{.MaxLength}} character long"
+other = "The {{.FieldName}} must be at most {{.MaxLength}} characters long"
+
+[STRING_TOO_SHORT]
+one = "The {{.FieldName}} must be at least {{.MinLength}} character long"
+other = "The {{.FieldName}} must be at least {{.MinLength}} characters long"

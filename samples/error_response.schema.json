@@ -1,0 +1,18 @@
+{
+    "status": "error",
+    "code": "VALIDATION_ERROR",
+    "errors" : {
+        "email": [
+            {
+                "code": "EMAIL_EXISTS",
+                "message": "Email already exists"
+            }
+        ]
+    }
+}
+
+{
+    "status": "error",
+    "code": "SERVER_ERROR",
+    "message": "Something went wrong"
+}

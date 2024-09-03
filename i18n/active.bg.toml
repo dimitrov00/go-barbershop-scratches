@@ -1,0 +1,81 @@
+[EMAIL_ALREADY_EXISTS]
+hash = "sha1-7f181a6ff14af2b17871394d478f2444480b145a"
+other = "Съществува потребител с този имейл адрес"
+
+[EMAIL_VERIFICATION_CODE_SENT]
+hash = "sha1-8ab6550e857e666e57b3299c40d9fc252d786e83"
+other = "Код за потвърждение беше изпратен на {{.Email}}"
+
+[ERROR_SENDING_EMAIL]
+hash = "sha1-2c8bc2d33a49aea3a4062c85ca186827161ab7d2"
+other = "Грешка при изпращането на имейл"
+
+[INTERNAL_SERVER_ERROR]
+hash = "sha1-8d886c0ba6f2b683daba5f19568a316226ce3e4c"
+other = "Нещо се обърка"
+
+[INVALID_EMAIL]
+hash = "sha1-9e4ee6d718da29c791cb6499ae1de88bbd71758c"
+other = "Невалиден имейл адрес"
+
+[INVALID_NAME]
+hash = "sha1-bb1826ee4d8ef405a91381faed170939609cf604"
+other = "Невалидно име"
+
+[INVALID_PHONE_NUMBER]
+hash = "sha1-43c82e71b63bfa9254717489cdf58459b5d40eda"
+other = "Невалиден телефонен номер"
+
+[PASSWORD_NO_LOWER]
+hash = "sha1-c32465bfa3cd1331f1b7e1575a441410f788d2f9"
+other = "Паролата трябва да съдържа поне една малка буква"
+
+[PASSWORD_NO_NUMBER]
+hash = "sha1-2965a9f801e3f3a5f5a7e382c2702b3e44bfa96b"
+other = "Паролата трябва да съдържа поне една цифра"
+
+[PASSWORD_NO_SPECIAL]
+hash = "sha1-f1b9e6ef37a1372a3dff68095131cb4b68ad2d16"
+other = "Паролата трябва да съдържа поне един специален символ"
+
+[PASSWORD_NO_UPPER]
+hash = "sha1-e41f4c6feb8e4c910ab618a2dbef42964abf952b"
+other = "Паролата трябва да съдържа поне една главна буква"
+
+[PASSWORD_TOO_LONG]
+hash = "sha1-7627a7f397a5a01543ce0ad19a7968495e3eb3d3"
+other = "Паролата трябва да бъде най-много {{.MaxLength}} символа"
+
+[PASSWORD_TOO_SHORT]
+hash = "sha1-ca58eee1f3a5e7220bcfcaa47ff4ee448f114a05"
+other = "Паролата трябва да бъде поне {{.MinLength}} символа"
+
+[STRING_LETTERS_ONLY]
+hash = "sha1-b437a35ed47d363682680dbfdb608ff0860fc567"
+other = "{{.FieldName}} трябва да съдържа само букви"
+
+[STRING_TOO_LONG]
+hash = "sha1-78832c29140623f5373189b12b2dd576f4921c10"
+one = "{{.FieldName}} трябва да бъде най-много {{.MaxLength}} символ"
+other = "{{.FieldName}} трябва да бъде най-много {{.MaxLength}} символа"
+
+[STRING_TOO_SHORT]
+hash = "sha1-e315075289a64d80ce4caf80b3d71a3821a5bd28"
+one = "{{.FieldName}} трябва да бъде поне {{.MinLength}} символ"
+other = "{{.FieldName}} трябва да бъде поне {{.MinLength}} символа"
+
+[USER_ALREADY_EXISTS]
+hash = "sha1-5bb94bfadf4a04bc6b31a3298c5f19a7dead6769"
+other = "Съществуващ потребител"
+
+[WELCOME_EMAIL_BODY]
+hash = "sha1-36d8fd25548c43df958d4178da880a586bbe57c6"
+other = "Добре дошли в Creativo, {{.FirstName}}!"
+
+[WELCOME_EMAIL_SUBJECT]
+hash = "sha1-5859e9b39666d1e02da3ffa76e94a1631430255e"
+other = "Добре дошли в Creativo"
+
+[WRONG_CREDENTIALS]
+hash = "sha1-c0494cb3595504b9c4455642e3f2ced99208de22"
+other = "Грешен имейл адрес или парола"
